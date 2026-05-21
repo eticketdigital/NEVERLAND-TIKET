@@ -27,7 +27,7 @@ body{
 
 .container{
     width:100%;
-    max-width:480px;
+    max-width:1000px;
     margin:auto;
 }
 
@@ -128,7 +128,7 @@ body{
     display:block;
 }
 
-/* ================= TITLE ================= */
+/* ================= CATEGORY ================= */
 
 .category-title{
     display:flex;
@@ -305,7 +305,7 @@ body{
 }
 
 .checkout-wrap{
-    max-width:480px;
+    max-width:1000px;
     margin:auto;
     display:flex;
     justify-content:space-between;
@@ -355,6 +355,136 @@ body{
     100%{
         transform:rotate(360deg);
     }
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:768px){
+
+    body{
+        zoom:0.88;
+    }
+
+    .container{
+        max-width:100%;
+    }
+
+    .topbar{
+        padding:18px 16px;
+    }
+
+    .logo-box{
+        width:46px;
+        height:46px;
+        font-size:24px;
+    }
+
+    .logo-text{
+        font-size:30px;
+    }
+
+    .lang{
+        padding:10px 18px;
+        font-size:18px;
+    }
+
+    .steps{
+        gap:14px;
+        padding:0 16px 26px;
+    }
+
+    .step{
+        width:44px;
+        height:44px;
+        font-size:18px;
+    }
+
+    .step-title{
+        font-size:20px;
+    }
+
+    .arrow{
+        font-size:34px;
+    }
+
+    .banner{
+        padding:0 16px;
+    }
+
+    .banner img{
+        border-radius:22px;
+    }
+
+    .category-title{
+        padding:24px 18px 18px;
+    }
+
+    .category-title h2{
+        font-size:24px;
+    }
+
+    .ticket-list{
+        padding:0 16px;
+        gap:18px;
+    }
+
+    .ticket-card{
+        border-radius:24px;
+    }
+
+    .ticket-top{
+        padding:22px 20px 18px;
+    }
+
+    .ticket-name{
+        font-size:20px;
+    }
+
+    .status{
+        padding:8px 12px;
+        font-size:14px;
+    }
+
+    .ticket-bottom{
+        padding:20px;
+    }
+
+    .ticket-price{
+        font-size:24px;
+    }
+
+    .select-btn,
+    .sold-btn{
+        padding:14px 20px;
+        border-radius:16px;
+        font-size:16px;
+    }
+
+    .qty-btn{
+        width:40px;
+        height:40px;
+        font-size:20px;
+    }
+
+    .qty-number{
+        font-size:20px;
+    }
+
+    .checkout{
+        padding:14px;
+    }
+
+    .total h3{
+        font-size:22px;
+    }
+
+    .buy-btn{
+        min-width:160px;
+        padding:14px 18px;
+        border-radius:16px;
+        font-size:15px;
+    }
+
 }
 
 </style>
